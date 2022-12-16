@@ -81,7 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/kaito/proprietary/bin/ppl_agent:system/bin/ppl_agent \
     vendor/bq/kaito/proprietary/bin/pppd:system/bin/pppd \
     vendor/bq/kaito/proprietary/bin/pppd_dt:system/bin/pppd_dt \
-    vendor/bq/kaito/proprietary/bin/pq:system/bin/pq \
     vendor/bq/kaito/proprietary/bin/qmc5983d:system/bin/qmc5983d \
     vendor/bq/kaito/proprietary/bin/radvd:system/bin/radvd \
     vendor/bq/kaito/proprietary/bin/rild:system/bin/rild \
@@ -313,12 +312,14 @@ PRODUCT_COPY_FILES += \
     vendor/bq/kaito/proprietary/lib/libfmmt6630.so:system/lib/libfmmt6630.so \
     vendor/bq/kaito/proprietary/lib/libfrsdk.so:system/lib/libfrsdk.so \
     vendor/bq/kaito/proprietary/lib/libgifEncoder_jni.so:system/lib/libgifEncoder_jni.so \
+    vendor/bq/kaito/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
+    vendor/bq/kaito/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
     vendor/bq/kaito/proprietary/lib/libhwm.so:system/lib/libhwm.so \
     vendor/bq/kaito/proprietary/lib/libimageio.so:system/lib/libimageio.so \
     vendor/bq/kaito/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
     vendor/bq/kaito/proprietary/lib/libion.so:system/lib/libion.so \
+    vendor/bq/kaito/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/bq/kaito/proprietary/lib/libipod.so:system/lib/libipod.so \
-    vendor/bq/kaito/proprietary/lib/libjni_pq.so:system/lib/libjni_pq.so \
     vendor/bq/kaito/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/bq/kaito/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
     vendor/bq/kaito/proprietary/lib/libmdloggerrecycle.so:system/lib/libmdloggerrecycle.so \
@@ -340,6 +341,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/kaito/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
     vendor/bq/kaito/proprietary/lib/libmtk_cipher.so:system/lib/libmtk_cipher.so \
     vendor/bq/kaito/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
+    vendor/bq/kaito/proprietary/lib/libmtk_mali_user.so:system/lib/libmtk_mali_user.so \
+    vendor/bq/kaito/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
     vendor/bq/kaito/proprietary/lib/libmtk_vt_client.so:system/lib/libmtk_vt_client.so \
     vendor/bq/kaito/proprietary/lib/libmtk_vt_em.so:system/lib/libmtk_vt_em.so \
     vendor/bq/kaito/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
@@ -371,9 +374,9 @@ PRODUCT_COPY_FILES += \
     vendor/bq/kaito/proprietary/lib/libssladp.so:system/lib/libssladp.so \
     vendor/bq/kaito/proprietary/lib/libstagefright_memutil.so:system/lib/libstagefright_memutil.so \
     vendor/bq/kaito/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/bq/kaito/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/bq/kaito/proprietary/lib/libterservice.so:system/lib/libterservice.so \
     vendor/bq/kaito/proprietary/lib/libtfa9890.so:system/lib/libtfa9890.so \
+    vendor/bq/kaito/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
     vendor/bq/kaito/proprietary/lib/libutilrilmtk.so:system/lib/libutilrilmtk.so \
     vendor/bq/kaito/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
     vendor/bq/kaito/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
