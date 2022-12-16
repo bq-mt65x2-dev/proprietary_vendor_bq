@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bulma/proprietary/bin/6620_launcher:system/bin/6620_launcher \
     vendor/bq/bulma/proprietary/bin/6620_wmt_concurrency:system/bin/6620_wmt_concurrency \
     vendor/bq/bulma/proprietary/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
-    vendor/bq/bulma/proprietary/bin/MtkCodecService:system/bin/MtkCodecService \
     vendor/bq/bulma/proprietary/bin/aal:system/bin/aal \
     vendor/bq/bulma/proprietary/bin/aee:system/bin/aee \
     vendor/bq/bulma/proprietary/bin/aee_aed:system/bin/aee_aed \
@@ -162,9 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bulma/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
     vendor/bq/bulma/proprietary/etc/getsystemtype.sh:system/etc/getsystemtype.sh \
     vendor/bq/bulma/proprietary/etc/mddb/BPLGUInfoCustomAppSrcP_MT6592_S00_MOLY_WR8_W1315_MD_WG_MP_V34_P8_1_wg_n:system/etc/mddb/BPLGUInfoCustomAppSrcP_MT6592_S00_MOLY_WR8_W1315_MD_WG_MP_V34_P8_1_wg_n \
-    vendor/bq/bulma/proprietary/etc/mtk_clear_motion.cfg:system/etc/mtk_clear_motion.cfg \
     vendor/bq/bulma/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
-    vendor/bq/bulma/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
     vendor/bq/bulma/proprietary/etc/perfservicelist.txt:system/etc/perfservicelist.txt \
     vendor/bq/bulma/proprietary/etc/throttle.sh:system/etc/throttle.sh \
     vendor/bq/bulma/proprietary/etc/wide-dhcpv6/dhcp6c.conf:system/etc/wide-dhcpv6/dhcp6c.conf \
@@ -189,32 +186,15 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bulma/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
     vendor/bq/bulma/proprietary/lib/libClearMotionFW.so:system/lib/libClearMotionFW.so \
     vendor/bq/bulma/proprietary/lib/libGdmaScalerPipe.so:system/lib/libGdmaScalerPipe.so \
-    vendor/bq/bulma/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
-    vendor/bq/bulma/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/bq/bulma/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
     vendor/bq/bulma/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
     vendor/bq/bulma/proprietary/lib/libMJCjni.so:system/lib/libMJCjni.so \
     vendor/bq/bulma/proprietary/lib/libMali.so:system/lib/libMali.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxAMRNBDec.so:system/lib/libMtkOmxAMRNBDec.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxAMRWBDec.so:system/lib/libMtkOmxAMRWBDec.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxAacDec.so:system/lib/libMtkOmxAacDec.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxAacEnc.so:system/lib/libMtkOmxAacEnc.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxAmrEnc.so:system/lib/libMtkOmxAmrEnc.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxApeDec.so:system/lib/libMtkOmxApeDec.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxAwbEnc.so:system/lib/libMtkOmxAwbEnc.so \
     vendor/bq/bulma/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxG711Dec.so:system/lib/libMtkOmxG711Dec.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxGsmDec.so:system/lib/libMtkOmxGsmDec.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
     vendor/bq/bulma/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
     vendor/bq/bulma/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxVorbisDec.so:system/lib/libMtkOmxVorbisDec.so \
-    vendor/bq/bulma/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
     vendor/bq/bulma/proprietary/lib/libMtkVideoTranscoder.so:system/lib/libMtkVideoTranscoder.so \
+    vendor/bq/bulma/proprietary/lib/libOpenMAXAL.so:system/lib/libOpenMAXAL.so \
     vendor/bq/bulma/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
     vendor/bq/bulma/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/bq/bulma/proprietary/lib/liba3m.so:system/lib/liba3m.so \
@@ -268,7 +248,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bulma/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/bq/bulma/proprietary/lib/libcustom_prop.so:system/lib/libcustom_prop.so \
     vendor/bq/bulma/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
-    vendor/bq/bulma/proprietary/lib/libdcfdecoderjni.so:system/lib/libdcfdecoderjni.so \
+    vendor/bq/bulma/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
     vendor/bq/bulma/proprietary/lib/libem_bt_jni.so:system/lib/libem_bt_jni.so \
     vendor/bq/bulma/proprietary/lib/libem_gpio_jni.so:system/lib/libem_gpio_jni.so \
     vendor/bq/bulma/proprietary/lib/libem_lte_jni.so:system/lib/libem_lte_jni.so \
@@ -298,6 +278,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bulma/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/bq/bulma/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/bq/bulma/proprietary/lib/libipod.so:system/lib/libipod.so \
+    vendor/bq/bulma/proprietary/lib/libjtranscode.so:system/lib/libjtranscode.so \
     vendor/bq/bulma/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/bq/bulma/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
     vendor/bq/bulma/proprietary/lib/libmdloggerrecycle.so:system/lib/libmdloggerrecycle.so \
@@ -309,7 +290,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bulma/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
     vendor/bq/bulma/proprietary/lib/libmmprofile_jni.so:system/lib/libmmprofile_jni.so \
     vendor/bq/bulma/proprietary/lib/libmnl.so:system/lib/libmnl.so \
-    vendor/bq/bulma/proprietary/lib/libmoviemaker-jni.so:system/lib/libmoviemaker-jni.so \
     vendor/bq/bulma/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
     vendor/bq/bulma/proprietary/lib/libmpo.so:system/lib/libmpo.so \
     vendor/bq/bulma/proprietary/lib/libmpodecoder.so:system/lib/libmpodecoder.so \
@@ -327,7 +307,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bulma/proprietary/lib/libmtk_vt_swip.so:system/lib/libmtk_vt_swip.so \
     vendor/bq/bulma/proprietary/lib/libmtk_vt_utils.so:system/lib/libmtk_vt_utils.so \
     vendor/bq/bulma/proprietary/lib/libmtkbtextspp.so:system/lib/libmtkbtextspp.so \
-    vendor/bq/bulma/proprietary/lib/libmtkhdmi_jni.so:system/lib/libmtkhdmi_jni.so \
     vendor/bq/bulma/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
     vendor/bq/bulma/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/bq/bulma/proprietary/lib/libmtkplayer.so:system/lib/libmtkplayer.so \
@@ -350,18 +329,15 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bulma/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
     vendor/bq/bulma/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/bq/bulma/proprietary/lib/libssladp.so:system/lib/libssladp.so \
-    vendor/bq/bulma/proprietary/lib/libstagefright_memutil.so:system/lib/libstagefright_memutil.so \
     vendor/bq/bulma/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/bq/bulma/proprietary/lib/libterservice.so:system/lib/libterservice.so \
     vendor/bq/bulma/proprietary/lib/libtfa9890.so:system/lib/libtfa9890.so \
     vendor/bq/bulma/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
     vendor/bq/bulma/proprietary/lib/libutilrilmtk.so:system/lib/libutilrilmtk.so \
     vendor/bq/bulma/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
-    vendor/bq/bulma/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
     vendor/bq/bulma/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
     vendor/bq/bulma/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
     vendor/bq/bulma/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
-    vendor/bq/bulma/proprietary/lib/libvideoorb.so:system/lib/libvideoorb.so \
     vendor/bq/bulma/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
     vendor/bq/bulma/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
     vendor/bq/bulma/proprietary/lib/libvt_custom.so:system/lib/libvt_custom.so \
