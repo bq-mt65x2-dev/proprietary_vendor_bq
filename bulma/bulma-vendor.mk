@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bulma/proprietary/bin/bmm056d:system/bin/bmm056d \
     vendor/bq/bulma/proprietary/bin/boot_logo_updater:system/bin/boot_logo_updater \
     vendor/bq/bulma/proprietary/bin/btlogmask:system/bin/btlogmask \
-    vendor/bq/bulma/proprietary/bin/bwc:system/bin/bwc \
     vendor/bq/bulma/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/bq/bulma/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
     vendor/bq/bulma/proprietary/bin/climax_hostSW:system/bin/climax_hostSW \
@@ -235,6 +234,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bulma/proprietary/lib/libcam.device1.so:system/lib/libcam.device1.so \
     vendor/bq/bulma/proprietary/lib/libcam.exif.so:system/lib/libcam.exif.so \
     vendor/bq/bulma/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
+    vendor/bq/bulma/proprietary/lib/libcam.utils.sensorlistener.so:system/lib/libcam.utils.sensorlistener.so \
     vendor/bq/bulma/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
     vendor/bq/bulma/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
     vendor/bq/bulma/proprietary/lib/libcam_mmp.so:system/lib/libcam_mmp.so \
@@ -242,6 +242,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bulma/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
     vendor/bq/bulma/proprietary/lib/libcamalgo.so:system/lib/libcamalgo.so \
     vendor/bq/bulma/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
+    vendor/bq/bulma/proprietary/lib/libcamera_client_mtk.so:system/lib/libcamera_client_mtk.so \
     vendor/bq/bulma/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
     vendor/bq/bulma/proprietary/lib/libcommon_time_client.so:system/lib/libcommon_time_client.so \
     vendor/bq/bulma/proprietary/lib/libcustom_jni.so:system/lib/libcustom_jni.so \
@@ -278,6 +279,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bulma/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/bq/bulma/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/bq/bulma/proprietary/lib/libipod.so:system/lib/libipod.so \
+    vendor/bq/bulma/proprietary/lib/libja3m.so:system/lib/libja3m.so \
     vendor/bq/bulma/proprietary/lib/libjtranscode.so:system/lib/libjtranscode.so \
     vendor/bq/bulma/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/bq/bulma/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
