@@ -325,8 +325,11 @@ PRODUCT_COPY_FILES += \
     vendor/bq/bulma/proprietary/lib/libphonemotiondetector.so:system/lib/libphonemotiondetector.so \
     vendor/bq/bulma/proprietary/lib/libphonemotiondetector_jni.so:system/lib/libphonemotiondetector_jni.so \
     vendor/bq/bulma/proprietary/lib/libpppbtdun.so:system/lib/libpppbtdun.so \
+    vendor/bq/bulma/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/bq/bulma/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/bq/bulma/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
     vendor/bq/bulma/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
+    vendor/bq/bulma/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/bq/bulma/proprietary/lib/libsched.so:system/lib/libsched.so \
     vendor/bq/bulma/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
     vendor/bq/bulma/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \

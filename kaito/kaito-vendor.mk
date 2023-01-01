@@ -347,8 +347,11 @@ PRODUCT_COPY_FILES += \
     vendor/bq/kaito/proprietary/lib/libphonemotiondetector.so:system/lib/libphonemotiondetector.so \
     vendor/bq/kaito/proprietary/lib/libphonemotiondetector_jni.so:system/lib/libphonemotiondetector_jni.so \
     vendor/bq/kaito/proprietary/lib/libpppbtdun.so:system/lib/libpppbtdun.so \
+    vendor/bq/kaito/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/bq/kaito/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/bq/kaito/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
     vendor/bq/kaito/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
+    vendor/bq/kaito/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/bq/kaito/proprietary/lib/libsched.so:system/lib/libsched.so \
     vendor/bq/kaito/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
     vendor/bq/kaito/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
